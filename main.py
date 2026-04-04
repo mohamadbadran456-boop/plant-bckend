@@ -21,7 +21,7 @@ MODEL_PATH = "plant_model_v3.h5"
 CLASS_NAMES_PATH = "class_names.json"
 
 # Load model
-model = tf.keras.models.load_model(MODEL_PATH)
+model = tf.keras.models.load_model("plant_model_v3.h5",compile=False)
 
 # Load class names
 with open(CLASS_NAMES_PATH, "r", encoding="utf-8") as f:
