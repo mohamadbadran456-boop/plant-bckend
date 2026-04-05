@@ -1,6 +1,5 @@
 import io
 import json
-import cv2
 import numpy as np
 import tensorflow as tf
 from PIL import Image, UnidentifiedImageError
