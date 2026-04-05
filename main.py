@@ -1,6 +1,7 @@
 import io
 import json
 import numpy as np
+import cv2
 import tensorflow as tf
 from PIL import Image, UnidentifiedImageError
 from fastapi import FastAPI, File, UploadFile, HTTPException
